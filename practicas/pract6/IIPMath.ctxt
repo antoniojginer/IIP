@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=IIPMath
+comment0.text=\r\n\ La\ clase\ IIPMath\ implementa\ algunas\ operaciones\ matematicas\:\r\n\ IIPMath.sqrt(double)\ e\ IIPMath.log(double).\r\n\r\n\ @author\ (IIP-PRG-DSIC-ETSINF)\r\n\ @version\ (Curso\ 2017-18)\r\n
+comment1.params=x\ epsilon
+comment1.target=double\ sqrt(double,\ double)
+comment1.text=\r\n\ Devuelve\ la\ raiz\ cuadrada\ de\ x\ >\=\ 0,\ con\ error\ epsilon\ >\ 0.\ \r\n\ A\ COMPLETAR\ COMENTARIO\r\n
+comment2.params=x
+comment2.target=double\ sqrt(double)
+comment3.params=z\ epsilon
+comment3.target=double\ logBase(double,\ double)
+comment3.text=\r\n\ Devuelve\ log(z),\ 1/2\ <\=\ z\ <\ 1,\ con\ error\ epsilon\ >\ 0.\r\n\ A\ COMPLETAR\ COMENTARIO\r\n
+comment4.params=x
+comment4.target=double\ log(double)
+comment5.params=x\ epsilon
+comment5.target=double\ log(double,\ double)
+comment5.text=\r\n\ \ \ \ //\ *\ Devuelve\ log(x),\ x\ >\ 0,\ con\ error\ epsilon\ >\ 0.\r\n\ \ \ \ //\ *\ A\ COMPLETAR\ COMENTARIO\r\n//
+numComments=6

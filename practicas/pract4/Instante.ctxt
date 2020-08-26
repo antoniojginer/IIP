@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=Instante
+comment0.text=\r\n\ <p>\r\n\ Esta\ clase\ permite\ representar\ instantes\ o\ marcas\ de\ tiempo\r\n\ (<code>Timestamp</code>)\ con\ detalle\ de\ horas\ y\ minutos.\ As\u00ED,\ esta\ \r\n\ clase\ representa\ el\ momento\ que\ define\ un\ instante\ de\ tiempo,\r\n\ en\ este\ caso,\ las\ horas\ y\ los\ minutos\ de\ un\ d\u00EDa\ cualquiera.\r\n\ </p>\r\n\ \r\n\ \ @author\ IIP\ \r\n\ \ @version\ Curso\ 2017-18\r\n
+comment1.params=h\ m
+comment1.target=Instante(int,\ int)
+comment1.text=\r\n\ \ Crea\ un\ <code>Instante</code>\ con\ el\ valor\ de\r\n\ \ las\ horas\ y\ los\ minutos\ que\ recibe\ como\ argumentos,\r\n\ \ <code>h</code>\ y\ <code>m</code>\ respectivamente.\r\n\r\n\ \ <p>\ Debe\ cumplirse\ la\ precondici\u00F3n\:\ \r\n\ \ <code>0\ <\=\ h\ <\ 24,\ 0\ <\=\ m\ <\ 60</code>.\ </p>\r\n
+comment10.params=otro
+comment10.target=int\ compareTo(Instante)
+comment10.text=\ Compara\ cronol\u00F3gicamente\ el\ instante\ almacenado\ por\ el\ objeto\ en\ curso\r\n\ \ con\ el\ almacenado\ en\ el\ objeto\ de\ la\ clase\ <code>Instante</code>\r\n\ \ referenciado\ por\ <code>otro</code>.\r\n\ \ <p>\r\n\ \ El\ resultado\ es\ la\ resta\ entre\ la\ conversi\u00F3n\ <code>aMinutos</code>\r\n\ \ de\ ambos\ objetos,\ en\ particular,\ este\ resultado\ ser\u00E1\ un\ valor\:\r\n\ \ <ul>\r\n\ \ \ \ \ <li>\ negativo\ si\ el\ instante\ del\ objeto\ en\ curso\ es\ anterior\r\n\ \ \ \ \ \ \ \ \ \ al\ del\ <code>otro</code>,\ </li>\r\n\ \ \ \ \ <li>\ cero\ si\ son\ iguales,\ </li>\r\n\ \ \ \ \ <li>\ positivo\ si\ el\ instante\ del\ objeto\ en\ curso\ es\ posterior\r\n\ \ \ \ \ \ \ \ \ \ al\ del\ <code>otro</code>.\ </li>\r\n\ \ </ul>\r\n\ \ </p>\r\n
+comment11.params=hhmm
+comment11.target=Instante\ valueOf(java.lang.String)
+comment11.text=\ Devuelve\ un\ <code>Instante</code>\ a\ partir\ de\ la\ descripci\u00F3n\ \r\n\ \ textual\ (<code>String</code>)\ en\ formato\ "<code>hh\:mm</code>".\r\n
+comment2.params=
+comment2.target=Instante()
+comment2.text=\r\n\ Crea\ un\ <code>Instante</code>\ con\ el\ valor\ del\ instante\r\n\ actual\ UTC\ (tiempo\ universal\ coordinado).\r\n
+comment3.params=
+comment3.target=int\ getHoras()
+comment3.text=Devuelve\ las\ <code>horas</code>\ del\ Instante.
+comment4.params=
+comment4.target=int\ getMinutos()
+comment4.text=Devuelve\ los\ <code>minutos</code>\ del\ Instante.
+comment5.params=h1
+comment5.target=void\ setHoras(int)
+comment5.text=Actualiza\ las\ <code>horas</code>\ del\ Instante.
+comment6.params=m1
+comment6.target=void\ setMinutos(int)
+comment6.text=Actualiza\ los\ <code>minutos</code>\ del\ Instante.
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=Devuelve\ el\ Instante\ en\ el\ formato\ "<code>hh\:mm</code>".
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment8.text=\ Devuelve\ <code>true</code>\ sii\ <code>o</code>\ es\ \r\n\ \ un\ objeto\ de\ la\ clase\ <code>Instante</code>\r\n\ \ y\ sus\ <code>horas</code>\ y\ <code>minutos</code>\r\n\ \ coinciden\ con\ los\ del\ objeto\ en\ curso.\ \r\n
+comment9.params=
+comment9.target=int\ aMinutos()
+comment9.text=\ Devuelve\ el\ n\u00FAmero\ de\ minutos\ transcurridos\ desde\ las\ 00\:00\ \r\n\ \ hasta\ el\ instante\ representado\ por\ el\ objeto\ en\ curso.\r\n
+numComments=12

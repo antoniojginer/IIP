@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=VentaEntradas
+comment0.text=\ VentaEntradas\:\ clase\ "Programa"\ que\ usa\ la\ clase\ Entrada\ para,\ \r\n\ \ a\ partir\ de\ datos\ leidos\ de\ teclado,\ crear\ una\ entrada\ de\ cine\ \r\n\ \ y\ mostrar\ por\ pantalla\ su\ precio\ final.\r\n\ \ \r\n\ \ @author\ IIP\r\n\ \ @version\ Curso\ 2017/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

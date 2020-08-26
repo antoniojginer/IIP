@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Entrada
+comment0.text=\r\n\ \ Entrada,\ clase\ "Tipo\ de\ Datos"\:\ representa\ una\r\n\ \ entrada\ de\ cine\r\n\ \ \r\n\ \ @author\ IIP\r\n\ \ @version\ Curso\ 2017/18\r\n
+comment1.params=t\ c\ h\ m
+comment1.target=Entrada(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\ PRECONDICION\:\ 0\ <\=\ h\ <\ 24\ AND\ 0\ <\=\ m\ <\ 60\r\n\ \ Crea\ una\ Entrada\ para\ la\ pelicula\ de\ titulo\ t\ \r\n\ \ que\ se\ proyecta\ en\ el\ cine\ c\ a\ las\ h\ horas\ y\r\n\ \ m\ minutos.\ \r\n
+comment10.params=edad\ diaEspectador\ festivo\ vispera\ esCliente
+comment10.target=double\ precioFinal(int,\ boolean,\ boolean,\ boolean,\ boolean)
+comment10.text=\ Devuelve,\ redondeado\ a\ centimos\ de\ euro,\ el\ precio\ final\ de\ una\ entrada\r\n\ \ para\ un\ espectador\ de\ edad\ e,\ teniendo\ en\ cuenta\ tanto\ si\ esCliente\ \r\n\ \ como\ si\ el\ dia\ es\ diaEspectador,\ festivo\ o\ vispera.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTitulo()
+comment2.text=Devuelve\ el\ titulo\ de\ la\ pelicula\ de\ una\ Entrada.
+comment3.params=
+comment3.target=java.lang.String\ getCine()
+comment3.text=Devuelve\ el\ cine\ de\ una\ Entrada.
+comment4.params=
+comment4.target=pract4.Instante\ getInicioSesion()
+comment4.text=Devuelve\ el\ Instante\ de\ inicio\ de\ sesion\ de\ una\ Entrada.
+comment5.params=nuevo
+comment5.target=void\ setTitulo(java.lang.String)
+comment5.text=Actualiza\ a\ nuevo\ el\ titulo\ de\ la\ pelicula\ de\ una\ Entrada.
+comment6.params=nuevo
+comment6.target=void\ setCine(java.lang.String)
+comment6.text=Actualiza\ a\ nuevo\ el\ cine\ de\ una\ Entrada.
+comment7.params=nuevo
+comment7.target=void\ setInicioSesion(pract4.Instante)
+comment7.text=Actualiza\ a\ nuevo\ el\ Instante\ de\ inicio\ de\ sesion\ de\ una\ Entrada.
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\ Devuelve\ un\ String\ que\ representa\ una\ Entrada\ de\ cine,\ \ \r\n\ \ i.e.\ sus\ componentes\ en\ el\ formato\ que\ ilustra\ el\ siguiente\ ejemplo\:\r\n\ \ "Anochece\ en\ La\ India",\ proyectada\ en\ Cines\ Babel,\ a\ las\ 22\:30\r\n\ \ Precio\ base\:\ 7.60\ euros\r\n
+comment9.params=otra
+comment9.target=boolean\ equals(java.lang.Object)
+comment9.text=\ Comprueba\ si\ una\ entrada\ (this)\ es\ igual\ a\ otra,\ i.e.\ si\ ambas\ son\r\nde\ tipo\ Entrada\ y\ si,\ uno\ por\ uno,\ sus\ atributos\ son\ iguales.
+numComments=11

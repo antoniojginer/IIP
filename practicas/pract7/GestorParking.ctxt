@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GestorParking
+comment0.text=\ \r\n\ \ Clase\ GestorParking\:\ gestor\ de\ un\ parking.\r\n\ \ @author\ IIP\r\n\ \ @version\ Curso\ 2017/2018\r\n
+comment1.params=tec
+comment1.target=int\ menu(java.util.Scanner)
+comment1.text=\r\n\ Muestra\ un\ menu\ de\ opciones\ por\ pantalla\ y\r\n\ lee\ desde\ teclado\ una\ opcion\ valida.\r\n\ @param\ tec\ Scanner,\ representa\ el\ teclado.\r\n\ @return\ int,\ opcion\ valida.\r\n
+comment2.params=tec
+comment2.target=pract4.Instante\ leerInstante(java.util.Scanner)
+comment2.text=\r\n\ Lectura\ desde\ teclado\ de\ un\ instante\ valido.\r\n\ @param\ tec\ Scanner,\ representa\ el\ teclado.\r\n\ @return\ Instante,\ hora\ valida.\r\n
+comment3.params=tec
+comment3.target=java.lang.String\ leerMatricula(java.util.Scanner)
+comment3.text=\r\n\ Lectura\ desde\ teclado\ de\ una\ matricula.\r\n\ @param\ tec\ Scanner,\ representa\ el\ teclado.\r\n\ @return\ String,\ la\ matricula.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ Metodo\ principal.\r\n\ @param\ args\ String[].\ \ \ \ \ \r\n
+numComments=5

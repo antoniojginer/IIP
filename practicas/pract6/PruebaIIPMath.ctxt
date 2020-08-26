@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PruebaIIPMath
+comment0.text=\r\n\ PruebaIIPMath\ permite\ que\ el\ usuario\ compare\ el\ valor\ devuelto\ por\r\n\ sus\ funciones\ sqrt(x)\ (ra\u00EDz\ cuadrada\ de\ x)\ y\ log(x)\ (logaritmo\ natural\ de\ x)\r\n\ conlos\ proporcionados\ por\ el\ Java\ en\ su\ librer\u00EDa\ Math.\r\n\ \r\n\ @author\ (IIP-PRG-DSIC-ETSINF)\r\n\ @version\ (curs\ 2017-18)\r\n
+comment1.params=
+comment1.target=PruebaIIPMath()
+comment1.text=No\ se\ pueden\ crear\ objetos\ de\ este\ tipo.
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
